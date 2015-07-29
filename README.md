@@ -31,29 +31,18 @@ Mac OS X instructions:
 
 + Update etc/core-site.xml 
 
-> &lt;configuration&gt;
-
->  &lt;property&gt;
-
->     <name>hadoop.tmp.dir&lt;/name&gt;
-
->     &lt;value&gt;/Users/ichishty/cloud/development/servers/hadoop/data&lt;/value&gt;
-
->   &lt;/property&gt;
-
-> 
-
->   &lt;property&gt;
-
->       &lt;name&gt;fs.defaultFS&lt;/name&gt;
-
->       &lt;value&gt;hdfs://localhost&lt;/value&gt; &lt;!-- Add port 8020 for spring xd --&gt;
-
->   &lt;/property&gt;
-
-> 
-
-> &lt;/configuration&gt;
+> &lt;configuration&gt;<br/>
+>  &lt;property&gt;<br/>
+>     &lt;name&gt;hadoop.tmp.dir&lt;/name&gt;<br/>
+>     &lt;value&gt;/Users/ichishty/cloud/development/servers/hadoop/data&lt;/value&gt;<br/>
+>   &lt;/property&gt;<br/>
+> <br/>
+>   &lt;property&gt;<br/>
+>       &lt;name&gt;fs.defaultFS&lt;/name&gt;<br/>
+>       &lt;value&gt;hdfs://localhost&lt;/value&gt; &lt;!-- Add port 8020 for spring xd --&gt;<br/>
+>   &lt;/property&gt;<br/>
+> <br/>
+> &lt;/configuration&gt;<br/>
 
 + Update etc/hdfs-site.xml
 
