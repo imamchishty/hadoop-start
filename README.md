@@ -46,43 +46,43 @@ Mac OS X instructions:
 
 + Update etc/hdfs-site.xml
 
-> &lt;configuration&gt;
-> &nbsp;  &lt;property&gt;
-> &nbsp; &nbsp;       &lt;name&gt;dfs.replication&lt;/name&gt;
-> &nbsp; &nbsp;       &lt;value&gt;1&lt;/value&gt;
-> &nbsp;   &lt;/property&gt;
-> &nbsp;   &lt;property&gt;
-> &nbsp; &nbsp;       &lt;name&gt;dfs.support.append&lt;/name&gt;
-> &nbsp; &nbsp;       &lt;value&gt;true&lt;/value&gt;
-> &nbsp;   &lt;/property&gt;
-> &nbsp;   &lt;property&gt;
-> &nbsp; &nbsp;       &lt;name&gt;dfs.webhdfs.enabled&lt;/name&gt;
-> &nbsp; &nbsp;       &lt;value&gt;true&lt;/value&gt;
-> &nbsp;   &lt;/property&gt;
-> &lt;/configuration&gt;
+> &lt;configuration&gt;<br/>
+> &nbsp;  &lt;property&gt;<br/>
+> &nbsp; &nbsp;       &lt;name&gt;dfs.replication&lt;/name&gt;<br/>
+> &nbsp; &nbsp;       &lt;value&gt;1&lt;/value&gt;<br/>
+> &nbsp;   &lt;/property&gt;<br/>
+> &nbsp;   &lt;property&gt;<br/>
+> &nbsp; &nbsp;       &lt;name&gt;dfs.support.append&lt;/name&gt;<br/>
+> &nbsp; &nbsp;       &lt;value&gt;true&lt;/value&gt;<br/>
+> &nbsp;   &lt;/property&gt;<br/>
+> &nbsp;   &lt;property&gt;<br/>
+> &nbsp; &nbsp;       &lt;name&gt;dfs.webhdfs.enabled&lt;/name&gt;<br/>
+> &nbsp; &nbsp;       &lt;value&gt;true&lt;/value&gt;<br/>
+> &nbsp;   &lt;/property&gt;<br/>
+> &lt;/configuration&gt;<br/>
 
 + Update etc/mapred-site.xml
 
-> &lt;configuration&gt;
-> &nbsp;     &lt;property&gt;
-> &nbsp; &nbsp;         &lt;name&gt;mapreduce.framework.name&lt;/name&gt;
->  &nbsp; &nbsp;        &lt;value&gt;yarn&lt;/value&gt;
->  &nbsp;    &lt;/property&gt;
-> &lt;/configuration&gt;
+> &lt;configuration&gt;<br/>
+> &nbsp;     &lt;property&gt;<br/>
+> &nbsp; &nbsp;         &lt;name&gt;mapreduce.framework.name&lt;/name&gt;<br/>
+>  &nbsp; &nbsp;        &lt;value&gt;yarn&lt;/value&gt;<br/>
+>  &nbsp;    &lt;/property&gt;<br/>
+> &lt;/configuration&gt;<br/>
 
 + Update etc/yarn-site.xml
 
-> &lt;configuration&gt;
-> &nbsp; &lt;!-- Site specific YARN configuration properties --&gt;
-> &nbsp; &lt;property&gt;
->  &nbsp; &nbsp;    &lt;name&gt;yarn.nodemanager.aux-services&lt;/name&gt;
-> &nbsp; &nbsp;     &lt;value&gt;mapreduce_shuffle&lt;/value&gt;
-> &nbsp; &lt;/property&gt;
-> &nbsp; &lt;property&gt;
-> &nbsp; &nbsp;     &lt;name&gt;yarn.resourcemanager.hostname&lt;/name&gt;
-> &nbsp; &nbsp;     &lt;value&gt;localhost&lt;/value&gt;
-> &nbsp; &lt;/property&gt;
-> &lt;/configuration&gt;
+> &lt;configuration&gt;<br/>
+> &nbsp; &lt;!-- Site specific YARN configuration properties --&gt;<br/>
+> &nbsp; &lt;property&gt;<br/>
+>  &nbsp; &nbsp;    &lt;name&gt;yarn.nodemanager.aux-services&lt;/name&gt;<br/>
+> &nbsp; &nbsp;     &lt;value&gt;mapreduce_shuffle&lt;/value&gt;<br/>
+> &nbsp; &lt;/property&gt;<br/>
+> &nbsp; &lt;property&gt;<br/>
+> &nbsp; &nbsp;     &lt;name&gt;yarn.resourcemanager.hostname&lt;/name&gt;<br/>
+> &nbsp; &nbsp;     &lt;value&gt;localhost&lt;/value&gt;<br/>
+> &nbsp; &lt;/property&gt;<br/>
+> &lt;/configuration&gt;<br/>
 
 + Format HDFS
 
@@ -105,9 +105,13 @@ If you reformat then you might a namenode and datanode cluster ID mismatch. If t
 
 + To stop 
 
-> stop-dfs.sh
-> stop-yarm.sh
+> stop-dfs.sh<br/>
+> stop-yarm.sh<br/>
 > mr-jobhistory-daemon.sh stop historyserver
+
++ Create a user directory
+
+> hadoop fs -mkdir -p /Users/XXXX
 
 ## Starting the applications
 
