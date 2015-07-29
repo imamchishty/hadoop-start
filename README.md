@@ -31,16 +31,16 @@ Mac OS X instructions:
 
 + Update etc/core-site.xml 
 
-> &lt;configuration&gt;<br/>
->  &lt;property&gt;<br/>
->     &lt;name&gt;hadoop.tmp.dir&lt;/name&gt;<br/>
->     &lt;value&gt;/Users/ichishty/cloud/development/servers/hadoop/data&lt;/value&gt;<br/>
->   &lt;/property&gt;<br/>
+>&lt;configuration&gt;<br/>
+>&nbsp;   &lt;property&gt;<br/>
+>&nbsp; &nbsp;      &lt;name&gt;hadoop.tmp.dir&lt;/name&gt;<br/>
+>&nbsp; &nbsp;      &lt;value&gt;/Users/ichishty/cloud/development/servers/hadoop/data&lt;/value&gt;<br/>
+>&nbsp;    &lt;/property&gt;<br/>
 > <br/>
->   &lt;property&gt;<br/>
->       &lt;name&gt;fs.defaultFS&lt;/name&gt;<br/>
->       &lt;value&gt;hdfs://localhost&lt;/value&gt; &lt;!-- Add port 8020 for spring xd --&gt;<br/>
->   &lt;/property&gt;<br/>
+>&nbsp;    &lt;property&gt;<br/>
+>&nbsp; &nbsp;        &lt;name&gt;fs.defaultFS&lt;/name&gt;<br/>
+>&nbsp; &nbsp;        &lt;value&gt;hdfs://localhost&lt;/value&gt; &lt;!-- Add port 8020 for spring xd --&gt;<br/>
+>&nbsp;    &lt;/property&gt;<br/>
 > <br/>
 > &lt;/configuration&gt;<br/>
 
@@ -48,29 +48,29 @@ Mac OS X instructions:
 
 > &lt;configuration&gt;
 
->   &lt;property&gt;
+> &nbsp;  &lt;property&gt;
 
->       &lt;name&gt;dfs.replication&lt;/name&gt;
+> &nbsp; &nbsp;       &lt;name&gt;dfs.replication&lt;/name&gt;
 
->       &lt;value&gt;1&lt;/value&gt;
+> &nbsp; &nbsp;       &lt;value&gt;1&lt;/value&gt;
 
->   &lt;/property&gt;
+> &nbsp;   &lt;/property&gt;
 
->   &lt;property&gt;
+> &nbsp;   &lt;property&gt;
 
->       &lt;name&gt;dfs.support.append&lt;/name&gt;
+> &nbsp; &nbsp;       &lt;name&gt;dfs.support.append&lt;/name&gt;
 
->       &lt;value&gt;true&lt;/value&gt;
+> &nbsp; &nbsp;       &lt;value&gt;true&lt;/value&gt;
 
->   &lt;/property&gt;
+> &nbsp;   &lt;/property&gt;
 
->   &lt;property&gt;
+> &nbsp;   &lt;property&gt;
 
->       &lt;name&gt;dfs.webhdfs.enabled&lt;/name&gt;
+> &nbsp; &nbsp;       &lt;name&gt;dfs.webhdfs.enabled&lt;/name&gt;
 
->       &lt;value&gt;true&lt;/value&gt;
+> &nbsp; &nbsp;       &lt;value&gt;true&lt;/value&gt;
 
->   &lt;/property&gt;
+> &nbsp;   &lt;/property&gt;
 
 > &lt;/configuration&gt;
 
@@ -78,13 +78,13 @@ Mac OS X instructions:
 
 > &lt;configuration&gt;
 
->     &lt;property&gt;
+> &nbsp;     &lt;property&gt;
 
->         &lt;name&gt;mapreduce.framework.name&lt;/name&gt;
+> &nbsp; &nbsp;         &lt;name&gt;mapreduce.framework.name&lt;/name&gt;
 
->         &lt;value&gt;yarn&lt;/value&gt;
+>  &nbsp; &nbsp;        &lt;value&gt;yarn&lt;/value&gt;
 
->     &lt;/property&gt;
+>  &nbsp;    &lt;/property&gt;
 
 > &lt;/configuration&gt;
 
@@ -93,23 +93,23 @@ Mac OS X instructions:
 
 > &lt;configuration&gt;
 
-> &lt;!-- Site specific YARN configuration properties --&gt;
+> &nbsp; &lt;!-- Site specific YARN configuration properties --&gt;
 
-> &lt;property&gt;
+> &nbsp; &lt;property&gt;
 
->     &lt;name&gt;yarn.nodemanager.aux-services&lt;/name&gt;
+>  &nbsp; &nbsp;    &lt;name&gt;yarn.nodemanager.aux-services&lt;/name&gt;
 
->     &lt;value&gt;mapreduce_shuffle&lt;/value&gt;
+> &nbsp; &nbsp;     &lt;value&gt;mapreduce_shuffle&lt;/value&gt;
 
-> &lt;/property&gt;
+> &nbsp; &lt;/property&gt;
 
-> &lt;property&gt;
+> &nbsp; &lt;property&gt;
 
->     &lt;name&gt;yarn.resourcemanager.hostname&lt;/name&gt;
+> &nbsp; &nbsp;     &lt;name&gt;yarn.resourcemanager.hostname&lt;/name&gt;
 
->     &lt;value&gt;localhost&lt;/value&gt;
+> &nbsp; &nbsp;     &lt;value&gt;localhost&lt;/value&gt;
 
-> &lt;/property&gt;
+> &nbsp; &lt;/property&gt;
 
 > &lt;/configuration&gt;
 
