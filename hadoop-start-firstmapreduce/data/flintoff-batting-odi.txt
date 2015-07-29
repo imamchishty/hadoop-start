@@ -1,0 +1,141 @@
+50,67,51,2,4,98.03,6,caught,2,Pakistan,Sharjah,7 Apr 1999,1429
+32,66,40,2,1,80.00,6,bowled,2,India,Sharjah,9 Apr 1999,1431
+3,9,9,0,0,33.33,7,run out,2,India,Sharjah,11 Apr 1999,1432
+0,2,2,0,0,0.00,6,bowled,1,Pakistan,Sharjah,12 Apr 1999,1434
+DNB,-,-,-,-,-,-,-,2,Sri Lanka,Lord's,14 May 1999,1443
+DNB,-,-,-,-,-,-,-,2,Kenya,Canterbury,18 May 1999,1449
+0,6,9,0,0,0.00,6,caught,2,South Africa,The Oval,22 May 1999,1455
+DNB,-,-,-,-,-,-,-,2,Zimbabwe,Nottingham,25 May 1999,1461
+15,34,21,1,1,71.42,6,lbw,2,India,Birmingham,29 May 1999,1467
+2,3,3,0,0,66.66,6,caught,1,Zimbabwe,The Oval,8 Jul 2000,1607
+42*,54,45,3,2,93.33,3,not out,2,Zimbabwe,Manchester,13 Jul 2000,1613
+DNB,-,-,-,-,-,-,-,2,West Indies,Chester-le-Street,15 Jul 2000,1615
+24,43,28,4,0,85.71,3,caught,1,Zimbabwe,Birmingham,18 Jul 2000,1617
+2,10,7,0,0,28.57,3,caught,2,West Indies,Nottingham,20 Jul 2000,1618
+0,3,4,0,0,0.00,3,bowled,2,Zimbabwe,Lord's,22 Jul 2000,1619
+DNB,-,-,-,-,-,-,-,2,Bangladesh,Nairobi (Gym),5 Oct 2000,1632
+25,40,37,2,0,67.56,6,caught,1,South Africa,Nairobi (Gym),10 Oct 2000,1636
+84,84,60,6,3,140.00,6,caught,2,Pakistan,Karachi,24 Oct 2000,1645
+17,32,22,0,0,77.27,6,bowled,1,Pakistan,Lahore,27 Oct 2000,1649
+10,22,21,1,0,47.61,6,caught,1,Pakistan,Rawalpindi,30 Oct 2000,1653
+2,9,7,0,0,28.57,6,stumped,1,Sri Lanka,Dambulla,23 Mar 2001,1694
+10,20,16,2,0,62.50,3,caught,2,Sri Lanka,Colombo (RPS),25 Mar 2001,1695
+24,56,50,1,0,48.00,6,caught,1,Sri Lanka,Colombo (SSC),27 Mar 2001,1697
+16*,16,15,0,1,106.66,7,not out,2,Zimbabwe,Harare,3 Oct 2001,1751
+DNB,-,-,-,-,-,-,-,2,Zimbabwe,Harare,6 Oct 2001,1753
+46,54,47,3,2,97.87,6,caught,2,Zimbabwe,Harare,7 Oct 2001,1754
+46,62,45,3,2,102.22,6,caught,1,Zimbabwe,Bulawayo,10 Oct 2001,1756
+DNB,-,-,-,-,-,-,-,2,Zimbabwe,Bulawayo,13 Oct 2001,1759
+24,49,29,1,1,82.75,6,run out,2,India,Kolkata,19 Jan 2002,1788
+5,9,9,0,0,55.55,6,bowled,1,India,Cuttack,22 Jan 2002,1792
+8,11,13,1,0,61.53,6,caught,1,India,Chennai,25 Jan 2002,1795
+18,29,19,1,1,94.73,3,caught,1,India,Kanpur,28 Jan 2002,1798
+52,46,39,6,1,133.33,4,caught,1,India,Delhi,31 Jan 2002,1800
+40,78,50,4,1,80.00,7,caught,1,India,Mumbai,3 Feb 2002,1803
+12,26,15,0,1,80.00,5,caught,1,New Zealand,Christchurch,13 Feb 2002,1806
+26,74,57,1,1,45.61,7,caught,2,New Zealand,Wellington,16 Feb 2002,1809
+19,27,21,1,0,90.47,5,caught,1,New Zealand,Napier,20 Feb 2002,1811
+2,6,7,0,0,28.57,6,caught,1,New Zealand,Auckland,23 Feb 2002,1812
+1,5,8,0,0,12.50,7,bowled,1,New Zealand,Dunedin,26 Feb 2002,1813
+50*,38,28,5,2,178.57,7,not out,1,Sri Lanka,Nottingham,27 Jun 2002,1847
+22,29,20,3,0,110.00,4,caught,1,India,Lord's,29 Jun 2002,1848
+20,15,13,2,1,153.84,4,caught,2,Sri Lanka,Leeds,2 Jul 2002,1850
+DNB,-,-,-,-,-,-,-,2,India,Chester-le-Street,4 Jul 2002,1851
+7,21,16,0,0,43.75,7,bowled,2,Sri Lanka,Manchester,7 Jul 2002,1853
+51,41,38,6,1,134.21,4,caught,1,India,The Oval,9 Jul 2002,1854
+40,41,32,2,1,125.00,4,bowled,1,India,Lord's,13 Jul 2002,1856
+16,25,18,2,0,88.88,8,bowled,2,Australia,Melbourne,25 Jan 2003,1941
+0,4,2,0,0,0.00,4,caught,2,Netherlands,East London,16 Feb 2003,1953
+21,35,24,0,2,87.50,6,caught,1,Namibia,Port Elizabeth,19 Feb 2003,1959
+26,39,38,3,0,68.42,7,stumped,1,Pakistan,Cape Town,22 Feb 2003,1962
+64,99,73,5,3,87.67,7,caught,2,India,Durban,26 Feb 2003,1969
+45,81,80,3,1,56.25,7,caught,1,Australia,Port Elizabeth,2 Mar 2003,1976
+39,64,55,4,0,70.90,5,caught,1,Pakistan,Manchester,17 Jun 2003,2025
+26*,18,13,6,0,200.00,5,not out,2,Pakistan,The Oval,20 Jun 2003,2026
+4,16,13,0,0,30.76,5,caught,2,Pakistan,Lord's,22 Jun 2003,2027
+53,103,89,6,0,59.55,5,caught,1,Zimbabwe,Nottingham,26 Jun 2003,2028
+32,29,21,3,2,152.38,5,bowled,2,South Africa,The Oval,28 Jun 2003,2029
+6,21,12,0,0,50.00,5,caught,1,Zimbabwe,Leeds,1 Jul 2003,2031
+12,42,27,1,0,44.44,5,caught,1,South Africa,Manchester,3 Jul 2003,2032
+47*,51,37,7,2,127.02,6,not out,2,Zimbabwe,Bristol,6 Jul 2003,2034
+54,76,40,7,1,135.00,5,caught,2,South Africa,Birmingham,8 Jul 2003,2035
+6*,15,13,0,0,46.15,5,not out,2,South Africa,Lord's,12 Jul 2003,2037
+55*,53,52,9,2,105.76,5,not out,2,Bangladesh,Chittagong,7 Nov 2003,2057
+70*,56,47,9,4,148.93,5,not out,2,Bangladesh,Dhaka,10 Nov 2003,2059
+52*,56,39,4,4,133.33,5,not out,2,Bangladesh,Dhaka,12 Nov 2003,2060
+3,13,7,0,0,42.85,5,caught,1,Sri Lanka,Dambulla,18 Nov 2003,2063
+8,17,9,0,1,88.88,4,caught,2,West Indies,Georgetown,18 Apr 2004,2118
+TDNB,-,-,-,-,-,-,-,-,West Indies,Port of Spain,24 Apr 2004,2121
+59,85,69,2,2,85.50,5,caught,1,West Indies,Gros Islet,1 May 2004,2125
+43,66,47,2,1,91.48,4,caught,1,West Indies,Gros Islet,2 May 2004,2126
+11,16,20,1,0,55.00,5,caught,2,West Indies,Bridgetown,5 May 2004,2127
+21*,20,18,3,1,116.66,5,not out,2,West Indies,Leeds,1 Jul 2004,2137
+106,127,121,11,2,87.60,5,bowled,1,New Zealand,Bristol,4 Jul 2004,2139
+123,129,104,8,7,118.26,5,caught,1,West Indies,Lord's,6 Jul 2004,2140
+34*,18,23,1,3,147.82,5,not out,2,India,Nottingham,1 Sep 2004,2164
+99,113,93,9,4,106.45,5,caught,1,India,The Oval,3 Sep 2004,2165
+6,7,8,1,0,75.00,5,caught,1,Zimbabwe,Birmingham,10 Sep 2004,2168
+104,120,91,9,3,114.28,5,bowled,1,Sri Lanka,Southampton,17 Sep 2004,2177
+16,10,9,1,1,177.77,5,caught,2,Australia,Birmingham,21 Sep 2004,2180
+3,10,6,0,0,50.00,5,caught,1,West Indies,The Oval,25 Sep 2004,2182
+DNB,-,-,-,-,-,-,-,2,Bangladesh,The Oval,16 Jun 2005,2249
+19,37,22,1,1,86.36,5,caught,2,Australia,Bristol,19 Jun 2005,2251
+17,19,21,1,1,80.95,4,caught,1,Bangladesh,Nottingham,21 Jun 2005,2252
+44,90,61,6,0,72.13,5,caught,2,Australia,Chester-le-Street,23 Jun 2005,2253
+22,22,29,3,0,75.86,3,lbw,2,Bangladesh,Leeds,26 Jun 2005,2255
+DNB,-,-,-,-,-,-,-,2,Australia,Birmingham,28 Jun 2005,2256
+8,14,9,2,0,88.88,5,caught,2,Australia,Lord's,2 Jul 2005,2258
+DNB,-,-,-,-,-,-,-,2,Australia,Leeds,7 Jul 2005,2259
+87,140,112,10,2,77.67,5,caught,1,Australia,Lord's,10 Jul 2005,2260
+5,10,15,0,0,33.33,5,caught,1,Australia,The Oval,12 Jul 2005,2261
+38,71,52,2,1,73.07,7,caught,2,Australia,Melbourne (Docklands),5 Oct 2005,2282
+42,48,50,3,0,84.00,7,caught,2,Australia,Melbourne (Docklands),7 Oct 2005,2283
+21,34,25,4,0,84.00,6,bowled,2,Australia,Melbourne (Docklands),9 Oct 2005,2284
+72*,76,65,5,3,110.76,5,not out,1,Pakistan,Lahore,10 Dec 2005,2304
+0,4,4,0,0,0.00,5,caught,1,Pakistan,Lahore,12 Dec 2005,2305
+36,50,41,7,0,87.80,5,bowled,2,Pakistan,Karachi,15 Dec 2005,2306
+40,76,48,4,1,83.33,5,lbw,2,Pakistan,Rawalpindi,19 Dec 2005,2307
+39,94,73,3,1,53.42,5,bowled,1,Pakistan,Rawalpindi,21 Dec 2005,2308
+41,38,37,4,2,110.81,5,lbw,2,India,Delhi,28 Mar 2006,2357
+5,13,14,0,0,35.71,5,stumped,1,India,Faridabad,31 Mar 2006,2358
+15,45,30,2,0,50.00,5,caught,2,India,Margao,3 Apr 2006,2359
+12,31,21,1,0,57.14,5,caught,1,India,Kochi,6 Apr 2006,2360
+0,6,7,0,0,0.00,3,lbw,1,India,Jaipur,15 Oct 2006,2429
+4,31,15,0,0,26.66,4,caught,1,Australia,Jaipur,21 Oct 2006,2434
+25,45,27,4,0,92.59,3,caught,2,West Indies,Ahmedabad,28 Oct 2006,2439
+47*,62,38,5,0,123.68,6,not out,1,Australia,Melbourne,12 Jan 2007,2473
+72*,101,75,7,0,96.00,6,not out,2,New Zealand,Hobart,16 Jan 2007,2475
+27,65,38,3,0,71.05,6,caught,1,Australia,Brisbane,19 Jan 2007,2478
+9,17,17,0,0,52.94,6,caught,2,New Zealand,Adelaide,23 Jan 2007,2482
+16,33,28,1,0,57.14,6,caught,1,Australia,Adelaide,26 Jan 2007,2486
+13,32,22,0,0,59.09,6,bowled,2,New Zealand,Perth,30 Jan 2007,2490
+3,12,10,0,0,30.00,4,lbw,1,Australia,Sydney,2 Feb 2007,2497
+17,31,15,2,0,113.33,6,caught,1,New Zealand,Brisbane,6 Feb 2007,2510
+35,65,36,0,1,97.22,6,caught,2,Australia,Melbourne,9 Feb 2007,2515
+42,71,50,3,0,84.00,6,caught,1,Australia,Sydney,11 Feb 2007,2519
+0,8,1,0,0,0.00,6,caught,1,New Zealand,Gros Islet,16 Mar 2007,2536
+DNB,-,-,-,-,-,-,-,2,Kenya,Gros Islet,24 Mar 2007,2553
+43,64,62,4,0,69.35,6,bowled,1,Ireland,Providence,30 Mar 2007,2558
+2,9,7,0,0,28.57,6,caught,2,Sri Lanka,North Sound,4 Apr 2007,2563
+4,20,19,0,0,21.05,6,stumped,1,Australia,North Sound,8 Apr 2007,2565
+23,29,21,3,1,109.52,6,bowled,2,Bangladesh,Bridgetown,11 Apr 2007,2568
+5,14,10,0,0,50.00,6,bowled,1,South Africa,Bridgetown,17 Apr 2007,2574
+15,23,20,2,0,75.00,6,caught,2,West Indies,Bridgetown,21 Apr 2007,2578
+DNB,-,-,-,-,-,-,-,1,India,Southampton,21 Aug 2007,2611
+9,5,7,2,0,128.57,6,caught,2,India,Bristol,24 Aug 2007,2613
+5,8,8,1,0,62.50,6,caught,2,India,Manchester,30 Aug 2007,2617
+DNB,-,-,-,-,-,-,-,2,India,Lord's,8 Sep 2007,2620
+DNB,-,-,-,-,-,-,-,2,Scotland,Edinburgh,18 Aug 2008,2743
+78,92,70,9,0,111.42,5,bowled,1,South Africa,Leeds,22 Aug 2008,2748
+DNB,-,-,-,-,-,-,-,2,South Africa,Nottingham,26 Aug 2008,2754
+78*,106,77,9,1,101.29,5,not out,1,South Africa,The Oval,29 Aug 2008,2757
+31*,17,12,5,1,258.33,5,not out,2,South Africa,Lord's,31 Aug 2008,2759
+TDNB,-,-,-,-,-,-,-,-,South Africa,Cardiff,3 Sep 2008,2761
+4,3,3,1,0,133.33,5,lbw,2,India,Rajkot,14 Nov 2008,2774
+43,49,35,4,3,122.85,5,lbw,2,India,Indore,17 Nov 2008,2777
+26,54,46,2,0,56.52,5,lbw,1,India,Kanpur,20 Nov 2008,2778
+41,53,30,3,1,136.66,5,caught,2,India,Bangalore,23 Nov 2008,2781
+0,5,3,0,0,0.00,5,caught,1,India,Cuttack,26 Nov 2008,2783
+0,5,6,0,0,0.00,6,caught,1,West Indies,Bridgetown,27 Mar 2009,2828
+DNB,-,-,-,-,-,-,-,2,West Indies,Bridgetown,29 Mar 2009,2829
+3,4,6,0,0,50.00,6,caught,1,West Indies,Gros Islet,3 Apr 2009,2833
