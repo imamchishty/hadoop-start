@@ -7,8 +7,9 @@ Mac OS X instructions:
 
 + Find your Java installation:
 
-
-    /usr/libexec/java_home 1.8
+````
+/usr/libexec/java_home 1.8
+````
 
 + Set JAVA_HOME environmental variable in your ~/bash_profile
 
@@ -48,7 +49,7 @@ Mac OS X instructions:
 
 + Update etc/hdfs-site.xml
 
-
+````
     <configuration>
       <property>
           <name>dfs.replication</name>
@@ -63,6 +64,7 @@ Mac OS X instructions:
           <value>true</value>
       </property>
     </configuration>
+````
 
 + Update etc/mapred-site.xml
 
