@@ -124,6 +124,21 @@ $ sbin/start-yarn.sh
 /mr-jobhistory-daemon.sh start historyserver
 ````
 
++ Use 'jps' to check everything is running
+
+````
+Imams-MacBook-Pro:bin ichishty$ jps
+15456 JobHistoryServer
+18161 NameNode
+22341 RemoteMavenServer
+18234 DataNode
+5451 
+17212 NodeManager
+17133 ResourceManager
+26639 Jps
+Imams-MacBook-Pro:bin ichishty$ 
+````
+
 + To stop 
 
 ````
@@ -138,7 +153,87 @@ mr-jobhistory-daemon.sh stop historyserver
 hadoop fs -mkdir -p /Users/XXXX
 ````
 
-## Starting the applications
+#### Some basic concepts
+
+I'm not going into much detail, but rather provide some basic notes (work in progress).
+
+Big Data Vs:
+
+````
+1. Volume
+2. Velocity
+3. Variety
+4. Veracity (is the data clean? transformations required?)
+````
+
++ Two main components in Hadoop:
+
+````
+HDFS - distributed file system manages data across the cluster and makes it available for processing
+
+YARN (yet another resource negotiator)- resource manager that manages and schedules computational assets and an application deployment framework for running processing jobs.
+````
+
++ HDFS & YARN are implemented by several independent daemon processes:
+
+````
+1. NameNode (Master) - contains metadata for HDFS ops
+2. SecondaryNameNode (master) - performs housekeeping tasks for hdfs
+3. DataNode (worker) - stores and manages hdfs blocks on a node. reports teh health and status for an individual data store.
+4. Resource Manager (master) - allocates and monitors processing jobs for MapReduce and other apps.
+5. Node Manager (worker) - runs and manages processing tasks on an individual node.
+6. Application Master (master) - every app is assigned an app manager that coordinates a particular app as sched by the resource manager
+````
+
++ Types of nodes
+
+````
+1. Masters - these nodes run the global management process
+2. Worker nodes - run local data and application processes
+````
+
++ Web UI ports
+
+````
+NameNode - 50070
+Resource Manager 8088
+MapReduce Job History 19888
+````
+
++ DFS
+
+````
+- is a WORM storage (Write Once Read Many)
+- files are split into block, usually 64MB or 128MB
+- blocks allows big files to be split and  distributed to many machines
+- block replication defaults to about 3, but in our case we have set it to 1 - see dfs.replication in hdfs-site.xml.
+- master NameNode keeps track of what blocks make up files and their locations. Communicates with DataNode to manage local stores of the blocks.
+- So when client app wants to read file it requests metadata from NameNode to locate blocks then communicates with the DataNodes to read the data.
+IF NameNode fails then cluster is down!!
+````
+
++ MapReduce
+
+````
+A job is a full program, the complete execution of Map and Reduce functions across all input data.
+
+A job is composed of many tasks (execution of a single attempt at Map or Reduce)
+
+A task attempt is a particular instance of a task.
+
+````
+
++ High level view
+
+````
+1. Local data is picked up from HDFS and processed as key-value pairs.
+2. Mapper is selected and called with key-value pair.
+3. Mapper does some logic and spits out key-value pair.
+4. Shuffle occurs using the key from the mapper output.
+5. Reducer called and then creates the final key-value pairs to the output path.
+````
+
+### Starting the applications
 
 Once you've started Hadoop you can run any of the application by running the 'Driver' classes. You must provide two arguments:
 + input path - file/directory/file patterns.
